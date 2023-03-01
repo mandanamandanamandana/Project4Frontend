@@ -8,7 +8,7 @@ const Index = (props) => {
   return (
   < div>
     <div className={classes.inputCard}>
-        <h2 className={classes.title}>Create a Tv Show</h2>
+        <h2 className={classes.title}>Create a TV Show</h2>
         <Form 
           className={classes.formCard}
           action="/create" 
