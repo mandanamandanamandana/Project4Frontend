@@ -19,7 +19,7 @@ const Index = (props) => {
             </span>
             <div className={classes.addBtnContainer}>
             <button className={classes.addButton}>
-              Create New Todo
+              Create New Show
               </button>
             </div>
         </Form>
