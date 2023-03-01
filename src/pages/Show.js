@@ -6,7 +6,7 @@ const Show = (props) => {
   //styles
   const div = {
     textAlign: "center",
-    border: "3px solid green",
+    border: "3px DarkCyan",
     width: "80%",
     margin: "30px auto",
   };
@@ -30,10 +30,10 @@ const Show = (props) => {
             placeholder="details"
             defaultValue={post.details}
           />
-          <button>Update Todo</button>
+          <button>Update</button>
         </Form>
         <Form action={`/delete/${post.id}`} method="post">
-            <button>Delete Todo</button>
+            <button>Delete</button>
         </Form>
       </div>
       <Link to="/">
