@@ -4,7 +4,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>This is my Todo App</h1>
+      <div className='titleContainer'>
+      <h1 
+        className='title neon' >
+          TV Shows List
+      </h1>
+      </div>
       <Outlet/>
     </div>
   );

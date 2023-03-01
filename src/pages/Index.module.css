@@ -1,0 +1,51 @@
+.inputCard{
+    display: flex;
+    flex-direction: column;
+    background: black;
+    /* border: solid white 2px; */
+    color:black;
+    margin-inline: 7.5rem;
+    padding: 1rem;
+    border-radius: 20px;  
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.inputCards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inputCards input{
+    width: 30rem;
+    margin-inline: auto;
+}
+
+.formCard input {
+    border: solid white 1px;
+}
+
+.addBtnContainer{
+    display: flex;
+}
+
+/* #D42CCA */
+
+.addButton{
+    margin:auto;
+    width:30rem;
+    border:solid 2px #f87aef;
+    background: black;
+    color:#f87aef;
+}
+
+.addButton:hover{
+    background: #D42CCA;
+    border:none;
+}
+

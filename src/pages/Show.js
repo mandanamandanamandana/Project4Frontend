@@ -16,7 +16,7 @@ const Show = (props) => {
       <h1>{post.subject}</h1>
       <h2>{post.details}</h2>
       <div>
-        <h2>Update this Todo</h2>
+        <h2>Update this TV Show</h2>
         <Form action={`/update/${post.id}`} method="post">
           <input
             type="text"
